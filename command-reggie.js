@@ -20,6 +20,7 @@ function reggie(args) {
                     if (characters[i] === "9") { _ret += ":nine: "; continue }
                     if (characters[i] === "#") { _ret += ":hash: "; continue }
                     if (characters[i] === "*") { _ret += ":asterisk: "; continue }
+                    if (characters[i] === "'") { _ret +=  ""; continue }
                     _ret += ":regional_indicator_" + characters[i].toLowerCase() + ": ";
                 }
                 _ret += "  ";

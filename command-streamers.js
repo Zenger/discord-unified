@@ -98,7 +98,7 @@ module.exports = function Streamers() {
         const check_string_multi = author + "|" + streamer_username + "|1";
          
             if (command == "help" || command == "h") {
-                msg.reply("```!sr list to list streamers you're going to get notified about.\n!sr once - to get one single notification when streamer is only and you'll no longer any other notice!\n!sr sub - to get hourly notifications when streamer is live and playing RUST.\n!sr usnub - to remove yourself from any notifications.```");
+                msg.reply("```!sr list to list streamers you're going to be notified about.\n!sr once - to get one single notification when the streamer is online and you'll no longer recieve any other notification!\n!sr sub - to get hourly notifications when streamer is live and playing RUST.\n!sr usnub - to remove yourself from any alerts.```");
                 return;
             }
 
