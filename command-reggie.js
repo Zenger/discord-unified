@@ -36,6 +36,7 @@ function reggie(args) {
                         characters[i] === "`" ||
                         characters[i] === "<" ||
                         characters[i] === ">" ||
+                        characters[i] === "@" ||
                         characters[i] === "\"" 
                         ) { _ret +=  ""; continue }
                     _ret += ":regional_indicator_" + characters[i].toLowerCase() + ": ";
