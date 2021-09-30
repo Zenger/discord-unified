@@ -17,7 +17,7 @@ const token = process.env.DISCORD_TOKEN
 
 bot.on('ready', () => {
     const prefix = '!'
-
+    bot.user.setActivity("!timmy - for help", {type:2});
     bot.on('message', async (msg) => {
         //if our message doesnt start with our defined prefix, dont go any further into function
         if (!msg.content.startsWith(prefix)) {
